@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {}
+    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
+    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
+        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
         "projectName": "WebApplicationAPICore.Recipies.Domain",
-        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
+        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
         "packagesPath": "/Users/marieviadieu/.nuget/packages/",
-        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Domain/obj/",
+        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marieviadieu/.nuget/NuGet/NuGet.Config"
@@ -80,14 +80,14 @@
         }
       }
     },
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {
+    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
+        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
         "projectName": "WebApplicationAPICore.Recipies.Infrastructure",
-        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
+        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
         "packagesPath": "/Users/marieviadieu/.nuget/packages/",
-        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/obj/",
+        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marieviadieu/.nuget/NuGet/NuGet.Config"
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
-                "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj"
+              "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
+                "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj"
               }
             }
           }

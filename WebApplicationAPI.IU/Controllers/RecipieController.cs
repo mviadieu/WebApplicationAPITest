@@ -10,25 +10,27 @@ namespace WebApplicationAPI.IU.Controllers;
 [ApiController]
 public class RecipieController : ControllerBase
 {
+    
+    #region constructors
+    
+    private readonly IRecipiesRepository _repository = null;
     private readonly RecipiesContext _context = null;
 
-    public RecipieController(RecipiesContext context)
+    public RecipieController(RecipiesContext context, IRecipiesRepository repository)
     {
         this._context = context;
+        this._repository = repository;
     }
+    
+    #endregion
+    
     #region public methods
 
-    // [HttpGet(Name = "GetRecipies")]
-    // public IEnumerable<Recipie> GetRecipies()
-    // {
-    //     return Enumerable.Range(1, 10).Select(item => new Recipie() {Id = item, Name = "Delicious snaks "+ item.ToString()} );
-    // }
-    
     [HttpGet(Name = "GetRecipiesActionResult")]
     public IActionResult GetRecipiesActionResult()
     {
-        var model = this._context.Recipies.Select(s=>s.Name).ToList();
-        return this.Ok(model);
+        var modelResult= this._repository.GetAll();
+        return this.Ok(modelResult);
     }
 
     #endregion

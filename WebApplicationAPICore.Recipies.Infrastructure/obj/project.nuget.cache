@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fle+oRdarGGdvi9LGwXDaAkDgfAwWT1hmfv8T3cAt4GijrPuDN+nqWMNM3X0BAAHc1I5KQK+3s4HPLyFWNX88w==",
+  "dgSpecHash": "Ghm5KrqV50CqJrtaecaGN/AuNOFUaltSRDZvNldTx8lBe01b4XNS+XHr96FztqLxNs6y+RWrbh/25ztEFSBCXA==",
   "success": true,
-  "projectFilePath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
+  "projectFilePath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/marieviadieu/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
