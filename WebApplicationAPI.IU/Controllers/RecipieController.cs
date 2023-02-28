@@ -35,6 +35,15 @@ public class RecipieController : ControllerBase
         var modelResult = mRecipies.Select(item=> new RecipieResumeDTO(){ Name = item.Name, IngredientId = item.IngredientId}).ToList();
         return this.Ok(modelResult);
     }
+    
+    public IActionResult AddOne(Recipie recipie)
+    {
+
+        return this.Ok(new RecipieDTO()
+        {
+            Id = 1
+        });
+    }
 
     #endregion
     

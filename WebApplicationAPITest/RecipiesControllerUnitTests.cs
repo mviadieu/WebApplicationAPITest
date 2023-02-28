@@ -17,7 +17,22 @@ public class RecipiesControllerUnitTests
     [Fact]
     public void ShouldAddOneRecipie()
     {
+        // ARRANGE
+        Recipie recipie = new Recipie();
+        var repositoryMock = new Mock<IRecipiesRepository>(); 
         
+        //ACT 
+        var controller = new RecipieController(null, repositoryMock.Object);
+        var result = controller.AddOne(recipie);
+        
+        // ASSERT
+        Assert.NotNull(result);
+        Assert.IsType<OkObjectResult>(result);
+
+        var AddedRecipie = (result as OkObjectResult).Value as RecipieDTO;
+        Assert.NotNull(AddedRecipie);
+        Assert.True(AddedRecipie.Id > 0);
+
     }
     
     [Fact]
