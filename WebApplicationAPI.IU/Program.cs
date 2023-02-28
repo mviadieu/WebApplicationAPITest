@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using WebApplicationAPI.IU.ExtentionsMethods;
 using WebApplicationAPICore.Recipies.Domain;
 using WebApplicationAPICore.Recipies.Infrastructure.Datas;
 using WebApplicationAPICore.Recipies.Infrastructure.Repositories;
@@ -15,7 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<RecipiesContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("master")));
 
-builder.Services.AddTransient<IRecipiesRepository, DefaultRecipieRepository>();
+builder.Services.AddInjection();
 
 var app = builder.Build();
 

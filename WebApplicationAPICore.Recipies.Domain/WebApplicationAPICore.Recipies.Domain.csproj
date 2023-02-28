@@ -19,4 +19,8 @@
       </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\WebApplicationAPI.Core.Framework\WebApplicationAPI.Core.Framework.csproj" />
+    </ItemGroup>
+
 </Project>

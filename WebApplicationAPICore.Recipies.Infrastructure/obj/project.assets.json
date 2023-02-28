@@ -2367,12 +2367,23 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "WebApplicationAPI.Core.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WebApplicationAPI.Core.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplicationAPI.Core.Framework.dll": {}
+        }
+      },
       "WebApplicationAPICore.Recipies.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
+          "WebApplicationAPI.Core.Framework": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WebApplicationAPICore.Recipies.Domain.dll": {}
@@ -7491,6 +7502,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "WebApplicationAPI.Core.Framework/1.0.0": {
+      "type": "project",
+      "path": "../WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
+      "msbuildProject": "../WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
+    },
     "WebApplicationAPICore.Recipies.Domain/1.0.0": {
       "type": "project",
       "path": "../WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
@@ -7506,6 +7522,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
       "Microsoft.Extensions.Configuration.FileExtensions >= 7.0.0",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
+      "WebApplicationAPI.Core.Framework >= 1.0.0",
       "WebApplicationAPICore.Recipies.Domain >= 1.0.0"
     ]
   },
@@ -7535,6 +7552,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
+              "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
+            },
             "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
               "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj"
             }

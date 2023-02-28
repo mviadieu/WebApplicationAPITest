@@ -15,6 +15,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
           "Microsoft.Extensions.Configuration.FileExtensions": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "WebApplicationAPI.Core.Framework": "1.0.0",
           "WebApplicationAPICore.Recipies.Domain": "1.0.0"
         },
         "runtime": {
@@ -1353,10 +1354,16 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "WebApplicationAPI.Core.Framework/1.0.0": {
+        "runtime": {
+          "WebApplicationAPI.Core.Framework.dll": {}
+        }
+      },
       "WebApplicationAPICore.Recipies.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
+          "WebApplicationAPI.Core.Framework": "1.0.0"
         },
         "runtime": {
           "WebApplicationAPICore.Recipies.Domain.dll": {}
@@ -2307,6 +2314,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "WebApplicationAPI.Core.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "WebApplicationAPICore.Recipies.Domain/1.0.0": {
       "type": "project",

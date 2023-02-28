@@ -3000,6 +3000,16 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "WebApplicationAPI.Core.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WebApplicationAPI.Core.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplicationAPI.Core.Framework.dll": {}
+        }
+      },
       "WebApplicationAPI.IU/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3024,7 +3034,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
+          "WebApplicationAPI.Core.Framework": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WebApplicationAPICore.Recipies.Domain.dll": {}
@@ -3042,6 +3053,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
           "Microsoft.Extensions.Configuration.FileExtensions": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "WebApplicationAPI.Core.Framework": "1.0.0",
           "WebApplicationAPICore.Recipies.Domain": "1.0.0"
         },
         "compile": {
@@ -9325,6 +9337,11 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "WebApplicationAPI.Core.Framework/1.0.0": {
+      "type": "project",
+      "path": "../WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
+      "msbuildProject": "../WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
     },
     "WebApplicationAPI.IU/1.0.0": {
       "type": "project",

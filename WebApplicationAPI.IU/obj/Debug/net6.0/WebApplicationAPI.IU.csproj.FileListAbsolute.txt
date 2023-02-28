@@ -225,3 +225,5 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/obj/Debug/net6.0/WebApplicationAPI.IU.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/obj/Debug/net6.0/WebApplicationAPI.IU.genruntimeconfig.cache
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/obj/Debug/net6.0/ref/WebApplicationAPI.IU.dll
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.dll
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb

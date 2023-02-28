@@ -1155,6 +1155,16 @@
             "rid": "win"
           }
         }
+      },
+      "WebApplicationAPI.Core.Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WebApplicationAPI.Core.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApplicationAPI.Core.Framework.dll": {}
+        }
       }
     }
   },
@@ -3500,6 +3510,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "WebApplicationAPI.Core.Framework/1.0.0": {
+      "type": "project",
+      "path": "../WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
+      "msbuildProject": "../WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3507,7 +3522,8 @@
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
+      "WebApplicationAPI.Core.Framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3535,7 +3551,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
+              "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

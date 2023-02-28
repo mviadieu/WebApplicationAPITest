@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebApplicationAPI.IU.Application.DTOs;
 using WebApplicationAPICore.Recipies.Domain;
 using WebApplicationAPICore.Recipies.Infrastructure.Datas;
 
@@ -29,7 +31,8 @@ public class RecipieController : ControllerBase
     [HttpGet(Name = "GetRecipiesActionResult")]
     public IActionResult GetRecipiesActionResult()
     {
-        var modelResult= this._repository.GetAll();
+        var mRecipies= this._repository.GetAll();
+        var modelResult = mRecipies.Select(item=> new RecipieResumeDTO(){ Name = item.Name, IngredientId = item.IngredientId}).ToList();
         return this.Ok(modelResult);
     }
 
