@@ -34,7 +34,6 @@ public class RecipiesControllerUnitTests
         Assert.True(AddedRecipie.Id > 0);
 
     }
-    
     [Fact]
     public void ShouldReturnListOfRecipies()
     {

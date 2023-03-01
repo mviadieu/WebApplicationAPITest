@@ -6,7 +6,7 @@ using WebApplicationAPICore.Recipies.Infrastructure.Datas.TypeConfiguration;
 
 namespace WebApplicationAPICore.Recipies.Infrastructure.Datas;
 
-public class RecipiesContext : DbContext, IUnitOfWork // On implémente le IUnitOfWork dans le context. (là où se trouve le save changes
+public class RecipiesContext : DbContext, IUnitOfWork // On implémente le IUnitOfWork dans le context. (là où se trouve le save changes)
 {
     
     public RecipiesContext(DbContextOptions<RecipiesContext> options) : base(options)
