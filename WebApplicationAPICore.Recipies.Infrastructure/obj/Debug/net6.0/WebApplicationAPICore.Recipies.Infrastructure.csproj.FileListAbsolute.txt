@@ -49,3 +49,6 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/ref/WebApplicationAPICore.Recipies.Infrastructure.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb
+//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.dll
+//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/refint/WebApplicationAPICore.Recipies.Infrastructure.dll
+//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.pdb

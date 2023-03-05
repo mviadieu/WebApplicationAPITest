@@ -178,3 +178,5 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPITest/bin/Debug/net6.0/Moq.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPITest/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPITest/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPITest/bin/Debug/net6.0/AutoMapper.dll
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPITest/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

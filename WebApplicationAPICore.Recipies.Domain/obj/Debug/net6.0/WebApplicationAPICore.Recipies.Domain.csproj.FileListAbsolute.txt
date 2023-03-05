@@ -41,3 +41,6 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.csproj.CopyComplete
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPICore.Recipies.Domain\obj\Debug\net6.0\WebApplicationAPICore.Recipies.Domain.dll
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPICore.Recipies.Domain\obj\Debug\net6.0\refint\WebApplicationAPICore.Recipies.Domain.dll
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPICore.Recipies.Domain\obj\Debug\net6.0\WebApplicationAPICore.Recipies.Domain.pdb

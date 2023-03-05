@@ -28,6 +28,14 @@ public class DefaultRecipieRepository : IRecipiesRepository // Implementation de
     {
         return this._context.Recipies.Include(item => item.Ingredient).ToList();
     }
+    public Recipie GetOne(int recipieId)
+    {
+        return this._context.Recipies.Include(item => item.Ingredient).Where(w => w.Id == recipieId).FirstOrDefault();
+    }
+    public Recipie AddOne(Recipie item)
+    {
+        return this._context.Recipies.Add(item).Entity;
+    }
 
     #endregion
 

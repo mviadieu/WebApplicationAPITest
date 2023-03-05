@@ -8,10 +8,10 @@ public class Ingredient
     public int Id { get; set; }
     
     public string Title { get; set; } = string.Empty;
-    
-    [JsonIgnore]
-    public List<Recipie> Recipies  {get; set; }
-    
+
+    [JsonIgnore] 
+    public List<Recipie> Recipies { get; set; } = new List<Recipie>();
+
 
     #endregion
 }

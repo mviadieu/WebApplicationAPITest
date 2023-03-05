@@ -3,6 +3,7 @@ using Xunit;
 using System;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
+using WebApplicationAPI.Core.Framework;
 using WebApplicationAPI.IU.Application.DTOs;
 using WebApplicationAPICore.Recipies.Domain;
 using WebApplicationAPICore.Recipies.Infrastructure.Datas;
@@ -18,12 +19,15 @@ public class RecipiesControllerUnitTests
     public void ShouldAddOneRecipie()
     {
         // ARRANGE
-        Recipie recipie = new Recipie();
-        var repositoryMock = new Mock<IRecipiesRepository>(); 
+        RecipieDTO recipie = new RecipieDTO();
+        var repositoryMock = new Mock<IRecipiesRepository>();
+        var unitOfWork = new Mock<IUnitOfWork>();
+        repositoryMock.Setup(s => s.UnitOfWork).Returns(unitOfWork.Object);
+        repositoryMock.Setup(s => s.AddOne(It.IsAny<Recipie>())).Returns(new Recipie(){ Id = 4});
         
         //ACT 
         var controller = new RecipieController(null, repositoryMock.Object);
-        var result = controller.AddOne(recipie);
+        var result = controller.AddOneRecipie(recipie);
         
         // ASSERT
         Assert.NotNull(result);
@@ -49,7 +53,7 @@ public class RecipiesControllerUnitTests
         var controller = new RecipieController(null, repositoryMock.Object);
 
         // ACT 
-        var result = controller.GetRecipiesActionResult();
+        var result = controller.GetAllRecipies();
         
         //ASSERT
         Assert.NotNull(result);

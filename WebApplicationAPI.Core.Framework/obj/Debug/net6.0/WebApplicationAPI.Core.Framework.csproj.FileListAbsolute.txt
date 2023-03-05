@@ -10,3 +10,15 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/obj/Debug/net6.0/refint/WebApplicationAPI.Core.Framework.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/obj/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/obj/Debug/net6.0/ref/WebApplicationAPI.Core.Framework.dll
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\bin\Debug\net6.0\WebApplicationAPI.Core.Framework.deps.json
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\bin\Debug\net6.0\WebApplicationAPI.Core.Framework.dll
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\bin\Debug\net6.0\WebApplicationAPI.Core.Framework.pdb
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\WebApplicationAPI.Core.Framework.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\WebApplicationAPI.Core.Framework.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\WebApplicationAPI.Core.Framework.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\WebApplicationAPI.Core.Framework.AssemblyInfo.cs
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\WebApplicationAPI.Core.Framework.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\WebApplicationAPI.Core.Framework.dll
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\refint\WebApplicationAPI.Core.Framework.dll
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\WebApplicationAPI.Core.Framework.pdb
+\\Mac\Home\Desktop\WebApplicationAPICore6GIT\WebApplicationAPI.Core.Framework\obj\Debug\net6.0\ref\WebApplicationAPI.Core.Framework.dll
