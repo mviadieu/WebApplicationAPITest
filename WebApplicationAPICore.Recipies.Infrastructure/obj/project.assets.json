@@ -7520,6 +7520,7 @@
       "Microsoft.EntityFrameworkCore.Relational.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
+      "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Configuration.FileExtensions >= 7.0.0",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "WebApplicationAPI.Core.Framework >= 1.0.0",
@@ -7594,6 +7595,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.3, )"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "Microsoft.Extensions.Configuration.FileExtensions": {
             "target": "Package",

@@ -294,6 +294,10 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
               "version": "[7.0.0, )"
