@@ -9,7 +9,6 @@ using WebApplicationAPICore.Recipies.Infrastructure.Datas;
 namespace WebApplicationAPI.IU.Controllers;
 
 [Route("api/v1/[controller]/[action]")]
-
 [ApiController]
 public class RecipieController : ControllerBase
 {
@@ -18,11 +17,13 @@ public class RecipieController : ControllerBase
     
     private readonly IRecipiesRepository _repository = null;
     private readonly RecipiesContext _context = null;
-
-    public RecipieController(RecipiesContext context, IRecipiesRepository repository)
+    private readonly IWebHostEnvironment _cWebHostEnvironment = null;
+    
+    public RecipieController(RecipiesContext context, IRecipiesRepository repository, IWebHostEnvironment webHostEnvironment)
     {
         this._context = context;
         this._repository = repository;
+        this._cWebHostEnvironment = webHostEnvironment;
     }
     
     #endregion
@@ -64,6 +65,31 @@ public class RecipieController : ControllerBase
             result = this.Ok(dtoItems);
         }
         return result;
+    }
+    
+    // [HttpPost(Name = "AddOnePicture")] // MANIERE MOINS PROPRE QUE IFormFile
+    // public async Task<IActionResult> AddOnePicture()
+    // {
+    //     using var stream = new StreamReader(this.Request.Body);
+    //     var content = await stream.ReadToEndAsync();
+    //     return this.Ok();
+    // }
+    
+    [HttpPost(Name = "AddOnePicture")]
+    public async Task<IActionResult> AddOnePicture(IFormFile picture)
+    {
+        string filePath = Path.Combine(this._cWebHostEnvironment.ContentRootPath, "image/recipie");
+        
+        if (!Directory.Exists(filePath))
+        {
+            Directory.CreateDirectory(filePath);
+        }
+        filePath = Path.Combine(filePath, picture.FileName);
+        
+        using var stream = new FileStream(filePath, FileMode.OpenOrCreate);
+        await picture.CopyToAsync(stream);
+        
+        return this.Ok();
     }
 
     #endregion

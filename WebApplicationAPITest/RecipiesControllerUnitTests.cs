@@ -26,7 +26,7 @@ public class RecipiesControllerUnitTests
         repositoryMock.Setup(s => s.AddOne(It.IsAny<Recipie>())).Returns(new Recipie(){ Id = 4});
         
         //ACT 
-        var controller = new RecipieController(null, repositoryMock.Object);
+        var controller = new RecipieController(null, repositoryMock.Object,null);
         var result = controller.AddOneRecipie(recipie);
         
         // ASSERT
@@ -50,7 +50,7 @@ public class RecipiesControllerUnitTests
         // ARRANGE 
         var repositoryMock = new Mock<IRecipiesRepository>(); // MOCK _ ON SIMULE LA CREATION D'UN OBJET
         repositoryMock.Setup(item => item.GetAll()).Returns(expetedListToReturn); 
-        var controller = new RecipieController(null, repositoryMock.Object);
+        var controller = new RecipieController(null, repositoryMock.Object, null);
 
         // ACT 
         var result = controller.GetAllRecipies();

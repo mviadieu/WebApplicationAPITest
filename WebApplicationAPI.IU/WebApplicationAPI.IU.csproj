@@ -25,4 +25,11 @@
       <ProjectReference Include="..\WebApplicationAPICore.Recipies.Infrastructure\WebApplicationAPICore.Recipies.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="**\*.cshtml" />
+      <_ContentIncludedByDefault Remove="**\*.razor" />
+      <_ContentIncludedByDefault Remove="**\*.config" />
+      <_ContentIncludedByDefault Remove="**\*.json" />
+    </ItemGroup>
+
 </Project>

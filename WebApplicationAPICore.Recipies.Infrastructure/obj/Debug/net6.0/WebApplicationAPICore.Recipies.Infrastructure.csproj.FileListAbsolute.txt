@@ -30,11 +30,16 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.genruntimeconfig.cache
 /Users/marieviadieu/Desktop/WebApplicationAPICore6/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/ref/WebApplicationAPICore.Recipies.Infrastructure.dll
+//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.dll
+//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/refint/WebApplicationAPICore.Recipies.Infrastructure.dll
+//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.deps.json
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.runtimeconfig.json
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.pdb
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.dll
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.csproj.AssemblyReference.cache
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -47,8 +52,3 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.genruntimeconfig.cache
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/ref/WebApplicationAPICore.Recipies.Infrastructure.dll
-/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.dll
-/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb
-//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.dll
-//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/refint/WebApplicationAPICore.Recipies.Infrastructure.dll
-//Mac/Home/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Infrastructure.pdb
