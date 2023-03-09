@@ -20,20 +20,20 @@ public class RecipiesContext : DbContext, IUnitOfWork // On implémente le IUnit
     }
     
     #region internal methods
-
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfiguration(new RecipieEntityTypeConfiguration());
         modelBuilder.ApplyConfiguration(new IngredientEntityTypeConfiguration());
     }
-
     #endregion
 
     #region Properties
 
     public DbSet<Recipie> Recipies { get; set; } = null !;
     public DbSet<Ingredient> Ingredients { get; set; } = null !;
+    public DbSet<Picture> Pictures { get; set; } = null !;
 
     #endregion
 }

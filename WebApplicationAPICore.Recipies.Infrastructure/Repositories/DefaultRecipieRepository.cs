@@ -36,6 +36,17 @@ public class DefaultRecipieRepository : IRecipiesRepository // Implementation de
     {
         return this._context.Recipies.Add(item).Entity;
     }
+    
+    public Picture AddOnePicture(string url, string fileName)
+    {
+        return this._context.Pictures.Add(new Picture()
+        {
+            Id = new int(),
+            Url = url,
+            FileName = fileName,
+        }).Entity;
+    }
+
 
     #endregion
 

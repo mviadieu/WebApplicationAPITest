@@ -11,7 +11,6 @@ public class RecipieEntityTypeConfiguration : IEntityTypeConfiguration<Recipie>
     public void Configure(EntityTypeBuilder<Recipie> builder)
     {
         builder.ToTable("Recipie");
-        
         builder.HasKey(item => item.Id);
         builder.HasOne(item => item.Ingredient).WithMany(item=>item.Recipies);
     }

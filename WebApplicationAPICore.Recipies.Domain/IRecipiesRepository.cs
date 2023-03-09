@@ -1,3 +1,4 @@
+using Microsoft.VisualBasic.CompilerServices;
 using WebApplicationAPI.Core.Framework;
 namespace WebApplicationAPICore.Recipies.Domain;
 
@@ -22,4 +23,23 @@ public interface IRecipiesRepository :IRepository
     /// <param name="item"></param>
     /// <returns></returns>
     Recipie AddOne(Recipie recipie);
+    /// <summary>
+    /// Add one picture in DB
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns></returns>
+    Picture AddOnePicture(string Url, string fileName);
+    
+    
+    
+    
+    /// <summary>
+    /// TO DO 
+    /// </summary>
+    /// <param name="objectType"></param>
+    /// <param name="objectId"></param>
+    /// <param name="Url"></param>
+    /// <returns></returns>
+   //  Picture AddOnePicture( ObjectType objectType, int objectId, string Url); // TODO A deporter dans un repo spécifique
+    
 }

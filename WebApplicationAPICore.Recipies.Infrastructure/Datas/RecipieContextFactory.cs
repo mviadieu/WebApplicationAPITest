@@ -16,7 +16,8 @@ public class RecipieContextFactory : IDesignTimeDbContextFactory<RecipiesContext
         IConfigurationRoot configurationRoot = configurationBuilder.Build();
         DbContextOptionsBuilder builder = new DbContextOptionsBuilder();
         builder.UseSqlServer(configurationRoot
-            .GetConnectionString("master"));
+            .GetConnectionString("master"),
+            x => x.MigrationsAssembly("WebApplicationAPICore.Migration"));
         RecipiesContext context = new RecipiesContext(builder.Options);
         return context;
     }

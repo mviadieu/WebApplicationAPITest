@@ -88,8 +88,11 @@ public class RecipieController : ControllerBase
         
         using var stream = new FileStream(filePath, FileMode.OpenOrCreate);
         await picture.CopyToAsync(stream);
+
+        var itemFile = this._repository.AddOnePicture(filePath, picture.FileName);
+        this._repository.UnitOfWork.SaveChanges();
         
-        return this.Ok();
+        return this.Ok(itemFile);
     }
 
     #endregion
