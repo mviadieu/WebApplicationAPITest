@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputPath>..\WebApplicationAPICore.Recipies.Infrastructure\bin\$(Configuration)\</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WebApplicationAPICore.Recipies.Infrastructure\WebApplicationAPICore.Recipies.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

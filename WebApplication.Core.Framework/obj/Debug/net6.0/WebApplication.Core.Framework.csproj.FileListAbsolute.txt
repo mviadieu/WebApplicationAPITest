@@ -1,0 +1,5 @@
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplication.Core.Framework/obj/Debug/net6.0/WebApplication.Core.Framework.csproj.AssemblyReference.cache
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplication.Core.Framework/obj/Debug/net6.0/WebApplication.Core.Framework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplication.Core.Framework/obj/Debug/net6.0/WebApplication.Core.Framework.AssemblyInfoInputs.cache
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplication.Core.Framework/obj/Debug/net6.0/WebApplication.Core.Framework.AssemblyInfo.cs
+/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplication.Core.Framework/obj/Debug/net6.0/WebApplication.Core.Framework.csproj.CoreCompileInputs.cache
