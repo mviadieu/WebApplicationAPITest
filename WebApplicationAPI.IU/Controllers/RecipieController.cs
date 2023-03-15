@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Server.IIS.Core;
 using Microsoft.EntityFrameworkCore;
 using WebApplicationAPI.IU.Application.DTOs;
+using WebApplicationAPI.IU.ExtentionsMethods;
 using WebApplicationAPICore.Recipies.Domain;
 using WebApplicationAPICore.Recipies.Infrastructure.Datas;
 
@@ -10,6 +12,7 @@ namespace WebApplicationAPI.IU.Controllers;
 
 [Route("api/v1/[controller]/[action]")]
 [ApiController]
+[EnableCors(SecurityMethods.DEFAULT_POLICY)] // Choix de la POLICY (voir SecurityMethods.cs)
 public class RecipieController : ControllerBase
 {
     
@@ -31,6 +34,7 @@ public class RecipieController : ControllerBase
     #region public methods
     
     [HttpGet(Name = "GetAllRecipies")]
+    [EnableCors(SecurityMethods.DEFAULT_POLICY_2)]
     public IActionResult GetAllRecipies()
     {
         var mRecipies= this._repository.GetAll();

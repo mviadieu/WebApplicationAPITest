@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using Microsoft.EntityFrameworkCore;
 using WebApplicationAPI.IU.ExtentionsMethods;
 using WebApplicationAPICore.Recipies.Domain;
@@ -17,6 +18,7 @@ builder.Services.AddDbContext<RecipiesContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("master")));
 
 builder.Services.AddInjection();
+builder.Services.AddCustomSecurity(builder.Configuration);
 
 var app = builder.Build();
 
@@ -38,17 +40,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.UseCors(builder =>
-    {
-        builder
-            .WithOrigins("http://localhost:4200", "https://localhost:4200")
-            .SetIsOriginAllowedToAllowWildcardSubdomains()
-            .AllowAnyHeader()
-            .AllowCredentials()
-            .WithMethods("GET", "PUT", "POST", "DELETE", "OPTIONS")
-            .SetPreflightMaxAge(TimeSpan.FromSeconds(3600));
- 
-    }
-);
-
+app.UseCors(SecurityMethods.DEFAULT_POLICY);
 app.Run();

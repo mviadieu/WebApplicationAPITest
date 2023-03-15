@@ -30,7 +30,6 @@ public class RecipiesContext : DbContext, IUnitOfWork // On implémente le IUnit
     #endregion
 
     #region Properties
-
     public DbSet<Recipie> Recipies { get; set; } = null !;
     public DbSet<Ingredient> Ingredients { get; set; } = null !;
     public DbSet<Picture> Pictures { get; set; } = null !;
