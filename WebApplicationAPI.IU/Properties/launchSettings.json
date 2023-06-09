@@ -19,6 +19,27 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "Recette": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:5001;http://localhost:5231",
+      "environmentVariables": {
+        "Jwt__Key": "TestDeClefDeMaSuperAPIQuiFonctionne1234",
+        "ASPNETCORE_ENVIRONMENT": "Recette"
+      }
+    },
+    "Production": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7152;http://localhost:5105",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,

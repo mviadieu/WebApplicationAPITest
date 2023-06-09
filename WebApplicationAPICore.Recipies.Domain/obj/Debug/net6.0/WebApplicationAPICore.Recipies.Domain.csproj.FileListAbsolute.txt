@@ -44,3 +44,20 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.genruntimeconfig.cache
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/ref/WebApplicationAPICore.Recipies.Domain.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.deps.json
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.runtimeconfig.json
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.pdb
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/bin/Debug/net6.0/WebApplicationAPI.Core.Framework.pdb
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.csproj.AssemblyReference.cache
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.AssemblyInfoInputs.cache
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.AssemblyInfo.cs
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.csproj.CoreCompileInputs.cache
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.csproj.CopyComplete
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/refint/WebApplicationAPICore.Recipies.Domain.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.pdb
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/WebApplicationAPICore.Recipies.Domain.genruntimeconfig.cache
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/Debug/net6.0/ref/WebApplicationAPICore.Recipies.Domain.dll

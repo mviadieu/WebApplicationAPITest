@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{DC767AE7-7674-42E8-8CB8-F398E6C49F3D}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplicationAPI.IU/Program.cs">
+    <Files>
+      <File FileName="WebApplicationAPI.IU/Controllers/AuthenticateController.cs" Line="1" Column="1" />
+      <File FileName="WebApplicationAPI.IU/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplicationAPI" expanded="True">
+            <Node name="Libs" expanded="True" />
+            <Node name="Tests" expanded="True" />
+            <Node name="WebApplicationAPI.IU" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApplicationAPI.IU PreferredExecutionTarget="/Applications/Arc.app" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -6,6 +6,6 @@ public class RecipieResumeDTO
     
     public string Name { get; set; } = string.Empty;
     public int IngredientId { get; set; }
-    
+
     #endregion
 }

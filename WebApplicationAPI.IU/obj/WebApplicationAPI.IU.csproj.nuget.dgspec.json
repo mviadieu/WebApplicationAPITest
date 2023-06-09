@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj": {}
+    "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj": {}
   },
   "projects": {
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
+    "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
+        "projectUniqueName": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
         "projectName": "WebApplicationAPI.Core.Framework",
-        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
+        "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
         "packagesPath": "/Users/marieviadieu/.nuget/packages/",
-        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/obj/",
+        "outputPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marieviadieu/.nuget/NuGet/NuGet.Config"
@@ -21,7 +21,8 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -54,18 +55,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj": {
+    "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj",
+        "projectUniqueName": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj",
         "projectName": "WebApplicationAPI.IU",
-        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj",
+        "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj",
         "packagesPath": "/Users/marieviadieu/.nuget/packages/",
-        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/obj/",
+        "outputPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.IU/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marieviadieu/.nuget/NuGet/NuGet.Config"
@@ -75,17 +76,18 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
-                "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj"
+              "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
+                "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj"
               },
-              "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {
-                "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj"
+              "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {
+                "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj"
               }
             }
           }
@@ -103,6 +105,22 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -144,18 +162,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
+    "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
+        "projectUniqueName": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
         "projectName": "WebApplicationAPICore.Recipies.Domain",
-        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
+        "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj",
         "packagesPath": "/Users/marieviadieu/.nuget/packages/",
-        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/",
+        "outputPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marieviadieu/.nuget/NuGet/NuGet.Config"
@@ -165,14 +183,15 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
-                "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
+              "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
+                "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
               }
             }
           }
@@ -224,18 +243,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {
+    "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
+        "projectUniqueName": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
         "projectName": "WebApplicationAPICore.Recipies.Infrastructure",
-        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
+        "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/WebApplicationAPICore.Recipies.Infrastructure.csproj",
         "packagesPath": "/Users/marieviadieu/.nuget/packages/",
-        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/",
+        "outputPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marieviadieu/.nuget/NuGet/NuGet.Config"
@@ -245,17 +264,18 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
-                "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
+              "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
+                "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj"
               },
-              "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
-                "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj"
+              "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj": {
+                "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Domain/WebApplicationAPICore.Recipies.Domain.csproj"
               }
             }
           }
@@ -270,6 +290,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.3, )"
@@ -323,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

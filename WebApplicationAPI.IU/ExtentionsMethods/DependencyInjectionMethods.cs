@@ -9,5 +9,8 @@ public static class DependencyInjectionMethods
     {
         services.AddScoped<IRecipiesRepository, DefaultRecipieRepository>();
         services.AddAutoMapper(typeof(Program).Assembly);
+        services.AddMediatR(cfg => {
+            cfg.RegisterServicesFromAssembly(typeof(Program).Assembly);
+        });
     }
 }

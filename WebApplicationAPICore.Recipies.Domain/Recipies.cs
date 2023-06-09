@@ -3,7 +3,6 @@ namespace WebApplicationAPICore.Recipies.Domain;
 
 public class  Recipie
 {
-
     #region Properties
 
     public int Id { get; set; }

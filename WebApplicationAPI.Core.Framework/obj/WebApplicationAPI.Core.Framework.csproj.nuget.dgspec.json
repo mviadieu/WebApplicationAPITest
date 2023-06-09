@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {}
+    "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {}
   },
   "projects": {
-    "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
+    "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
+        "projectUniqueName": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
         "projectName": "WebApplicationAPI.Core.Framework",
-        "projectPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
+        "projectPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/WebApplicationAPI.Core.Framework.csproj",
         "packagesPath": "/Users/marieviadieu/.nuget/packages/",
-        "outputPath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/obj/",
+        "outputPath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.Core.Framework/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marieviadieu/.nuget/NuGet/NuGet.Config"
@@ -21,7 +21,8 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using WebApplicationAPI.Core.Framework;
 using WebApplicationAPICore.Recipies.Domain;
@@ -6,7 +7,7 @@ using WebApplicationAPICore.Recipies.Infrastructure.Datas.TypeConfiguration;
 
 namespace WebApplicationAPICore.Recipies.Infrastructure.Datas;
 
-public class RecipiesContext : DbContext, IUnitOfWork // On implémente le IUnitOfWork dans le context. (là où se trouve le save changes)
+public class RecipiesContext : IdentityDbContext, IUnitOfWork // On implémente le IUnitOfWork dans le context. (là où se trouve le save changes)
 {
     
     public RecipiesContext(DbContextOptions options) : base(options)

@@ -11,3 +11,16 @@
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/refint/WebApplicationAPICore.Migration.dll
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.pdb
 /Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/ref/WebApplicationAPICore.Migration.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Migration.deps.json
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Migration.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Recipies.Infrastructure/bin/Debug/net6.0/WebApplicationAPICore.Migration.pdb
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.csproj.AssemblyReference.cache
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.AssemblyInfoInputs.cache
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.AssemblyInfo.cs
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.csproj.CoreCompileInputs.cache
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.csproj.CopyComplete
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/refint/WebApplicationAPICore.Migration.dll
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/WebApplicationAPICore.Migration.pdb
+/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPICore.Migration/obj/Debug/net6.0/ref/WebApplicationAPICore.Migration.dll

@@ -1,14 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "BYgYYRLjU926Eo76+QwKrObWv6q0DAm0asx1CFZzrPXqqxpa9sYf+Wv4syRQWskNcyz4Z8nHHX0H5B5c4jkDwA==",
+  "dgSpecHash": "6/MNfplst4WrIe+JDmqshlLJTElWlYppk9gI7f9czeefxd5Rw3IeaTlq3C/H8gDOo7UVyDtTz9bawl9w28teaA==",
   "success": true,
-  "projectFilePath": "/Users/marieviadieu/Desktop/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj",
+  "projectFilePath": "/Users/marieviadieu/Desktop/App .net/WebApplicationAPICore6GIT/WebApplicationAPI.IU/WebApplicationAPI.IU.csproj",
   "expectedPackageFiles": [
     "/Users/marieviadieu/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/mediatr/12.0.1/mediatr.12.0.1.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.15/microsoft.aspnetcore.authentication.jwtbearer.6.0.15.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.15/microsoft.aspnetcore.cryptography.internal.6.0.15.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.15/microsoft.aspnetcore.cryptography.keyderivation.6.0.15.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.15/microsoft.aspnetcore.identity.entityframeworkcore.6.0.15.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.aspnetcore.identity.ui/6.0.15/microsoft.aspnetcore.identity.ui.6.0.15.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
@@ -32,8 +40,11 @@
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.extensions.fileproviders.embedded/6.0.15/microsoft.extensions.fileproviders.embedded.6.0.15.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.extensions.identity.core/6.0.15/microsoft.extensions.identity.core.6.0.15.nupkg.sha512",
+    "/Users/marieviadieu/.nuget/packages/microsoft.extensions.identity.stores/6.0.15/microsoft.extensions.identity.stores.6.0.15.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
@@ -147,5 +158,16 @@
     "/Users/marieviadieu/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/marieviadieu/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.0.1 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
