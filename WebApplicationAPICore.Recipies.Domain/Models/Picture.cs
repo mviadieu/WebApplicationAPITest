@@ -10,7 +10,6 @@ public class Picture //  est un value object
     public string FileName { get; set; } = string.Empty;
     public string Url { get; set; } = string.Empty;
     
-    [JsonIgnore] 
     public List<Recipie> Recipies { get; set; } = new List<Recipie>();
     #endregion
 }
